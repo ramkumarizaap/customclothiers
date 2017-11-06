@@ -1,0 +1,5514 @@
+/* My Custom Css*/
+
+div.step_block_selector {
+
+    padding-top: 19px;
+
+}
+
+.row {
+
+    margin-right: -15px;
+
+    margin-left: -15px;
+
+}
+
+img {
+
+  display: inline-block;
+
+  max-width: 100%;
+
+  height: auto;
+
+}
+
+/*div.step_block_selector a.selector.current {
+
+    border-bottom: 4px solid #e83380;
+
+}*/
+
+div.common_color.active a.box_color div.active,div.common_color.active1 a.box_color div.active
+
+{
+        background: url(../images/man/ico_active.png) no-repeat scroll left top transparent;
+    display: block;
+    height: 14px;
+    left: 6px;
+    position: absolute;
+    top: -3px;
+    width: 13px;
+}
+
+div.step_block_selector a.selector {
+
+    display: block;
+
+    text-transform: uppercase;
+
+    color: #A3A3A3;
+
+    padding-bottom: 3px;
+
+    border-bottom: 4px solid #FFF;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+div.step_block_selector a.selector span {
+
+    background: url('/images/personalize/garment_block_selector.png') -300px 0 no-repeat;
+
+    display: block;
+
+   /* border: 1px solid #dcdcdc;
+
+    height: 54px;
+
+    line-height: 54px;*/
+
+  border: 1px solid #dcdcdc;
+
+    line-height: 27px;
+
+  padding:0 5px;
+
+}
+
+div.step_block_selector_enable {
+
+    margin-top: 15px;
+
+    /*font-family: Fira Sans;*/
+
+}
+
+div.step_block_selector_enable label {
+
+    font-weight: normal;
+
+}
+
+
+
+/*input.multiple_fabric {
+
+    margin-left: -5px;
+
+    width: 0;
+
+    height: 0;
+
+    opacity: 0;
+
+    display: inline-block!important;
+
+    left: 0;
+
+    vertical-align: bottom;
+
+}*/
+
+label.t4l_checkbox::before {
+
+    content: "";
+
+    display: inline-block;
+
+    width: 15px;
+
+    height: 15px;
+
+    margin-left: -5px;
+
+    background-color: #eee;
+
+    border: 1px solid #D0D0D0;
+
+}
+
+div.step_block_selector a.selector.current{ margin-bottom: 10px !important}
+
+div.step_block_selector a.selector.current span::after {
+
+    background: #333 !important;;
+
+    border-radius: 50%;
+
+    color: #fff;
+
+    content: "*";
+
+    font-family: arial;
+
+    font-size: 20px;
+
+    height: 18px;
+
+    padding-top: 3px;
+
+    position: absolute;
+
+    right: -5px;
+
+    top: -8px;
+
+    width: 18px;
+
+    text-align: center;
+
+}
+
+
+
+div.step_block_selector a.selector.current span{
+
+    border: 2px solid #333;
+
+    border-radius: 3px;
+
+    line-height:21px;
+
+    min-width: 90px;
+
+    padding: 3px 5px;
+
+    position: relative;
+
+}
+
+/*div.render1 img {
+
+  width: 140.4px;
+
+margin-top: -14.4px;
+
+margin-left: 46.8px;
+
+}*/
+
+#account-information .form-group > img {
+
+    display: inline-block;
+
+    height: auto;
+
+    max-width: 100%;
+
+    width: 174px;
+
+}
+
+
+
+/** My Custom Styles */
+
+/* custom1 css*/
+
+div.body_box {
+
+    width: 100%;
+
+    margin: 0;
+
+}
+
+div.body_product_box_3d {
+
+    width: 100%;
+
+}
+
+.product_title_3d {
+
+    color: #444;
+
+    overflow: hidden;
+
+    position: relative;
+
+    margin-top: 21px;
+
+    height: 39px;
+
+}
+
+.product_title_3d .tabs {
+
+    float: left;
+
+    height: 39px;
+
+}
+
+.product_title_3d {
+
+    color: #444;
+
+}
+
+.product_title_3d .tabs a.tab.current {
+
+    background: white;
+
+}
+
+.product_title_3d .tabs a.tab {
+
+    background: url('/images/man/bg_tab_steps.jpg') top left repeat-x;
+
+    display: block;
+
+    height: 39px;
+
+    line-height: 39px;
+
+    float: left;
+
+    padding: 0 16px 0 13px;
+
+    -webkit-border-radius: 6px 6px 0 0;
+
+    -moz-border-radius: 6px 6px 0 0;
+
+    border-radius: 6px 6px 0 0;
+
+    margin-right: 1px;
+
+    text-decoration: none;
+
+}
+
+.product_title_3d .tabs a.tab.current .num {
+
+    background: url('/images/man/ico_round_current.png') top left no-repeat;
+
+}
+
+.product_title_3d .tabs a.tab .num {
+
+    width: 27px;
+
+    height: 27px;
+
+    line-height: 27px;
+
+    background: url('/images/man/ico_round.png') top left no-repeat;
+
+    float: left;
+
+    margin-top: 6px;
+
+}
+
+.product_title_3d .tabs a.tab {
+
+    line-height: 39px;
+
+}
+
+.product_title_3d .tabs a.tab.current .txt {
+
+    color: #292929;
+
+    
+
+    font-weight: 700;
+
+}
+
+.product_title_3d .tabs a.tab .txt {
+
+    margin-left: 6px;
+
+    
+
+    color: #bcbcbc;
+
+    font-size: 13px;
+
+    text-transform: uppercase;
+
+}
+
+.product_title_3d {
+
+    color: #444;
+
+}
+
+.product_title_3d .box {
+
+    background: url('/images/toolbar_li_sep.png') 0 5px no-repeat;
+
+    float: none;
+
+    height: 39px;
+
+    padding: 0 9px;
+
+}
+
+.product_title_3d #price_img {
+
+    
+
+    font-weight: 300;
+
+    font-size: 29px;
+
+}
+
+div.body_product_box_3d #man_suit {
+
+    background: #FFF url('/images/opt_box_footer.jpg') left bottom repeat-x;
+
+    overflow: hidden;
+
+}
+
+#configure_form {
+
+    padding-bottom: 20px;
+
+    overflow: hidden;
+
+}
+
+div.body_product_box_3d .box_right_3d {
+
+    float: right;
+
+    width: 400px;
+
+    position: relative;
+
+}
+
+.box_right_3d.suit {
+
+    width: 350px;
+
+}
+
+.body_product_box_3d .box_right_3d #move {
+
+    position: relative;
+
+}
+
+.box_right_3d.suit #move {
+
+    top: 50px;
+
+}
+
+.box_right_3d #move {
+
+    margin: 0;
+
+    padding: 0;
+
+    clear: both;
+
+}
+
+.body_product_box_3d #control_suit {
+
+    overflow: hidden;
+
+    width: 280px;
+
+    left: 58px;
+
+    position: relative;
+
+}
+
+.body_product_box_3d #box_change_position {
+
+    float: left;
+
+    margin-left: 10px;
+
+}
+
+.body_product_box_3d a.change_position {
+
+    background: url(images/rotate.png) top left no-repeat;
+
+    padding-left: 25px;
+
+    display: block;
+
+    height: 20px;
+
+    margin-left: 0;
+
+    
+
+    font-size: 11px;
+
+    color: #000;
+
+    text-decoration: underline;
+
+}
+
+#show_hide_pieces.parcial {
+
+    background: url(images/ico_view_hide.png) top left no-repeat;
+
+}
+
+#show_hide_pieces {
+
+    float: right;
+
+    margin-right: 38px;
+
+    padding-left: 25px;
+
+    display: block;
+
+    height: 20px;
+
+    margin-left: 0;
+
+    
+
+    font-size: 11px;
+
+    text-decoration: underline;
+
+    color: #000;
+
+}
+
+#show_hide_pieces a {
+
+    color: #000;
+
+}
+
+#show_hide_pieces {
+
+    
+
+    font-size: 11px;
+
+    color: #000;
+
+}
+
+#show_hide_pieces.parcial span.full,#show_hide_pieces.full span.parcial {
+
+    display: none;
+
+}
+
+#show_hide_pieces a {
+
+    color: #000;
+
+}
+
+.box_right_3d.suit #model_3d_preview.man_suit {
+
+    width: 280px;
+
+    left: 32px;
+
+}
+
+div.body_product_box_3d #model_3d_preview.man_suit {
+
+    height: 650px;
+
+}
+
+div.body_product_box_3d #model_3d_preview {
+
+    height: 465px;
+
+    width: 100%;
+
+    overflow: hidden;
+
+}
+
+div.body_product_box_3d #model_3d_preview.man_suit img {
+
+    width: 270px;
+
+}
+
+div.opt_box div.content {
+
+    padding: 15px 0 15px 20px;
+
+    overflow: hidden;
+
+}
+
+.body_product_box_3d .box_title {
+
+    
+
+    text-transform: uppercase;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-top: 1px;
+
+}
+
+.body_product_box_3d h1.title {
+
+    display: inline;
+
+    font-size: inherit;
+
+    /*font-weight: 300;*/
+
+  font-weight:bold;
+
+}
+
+.body_product_box_3d .box_title {
+
+    
+
+    text-transform: uppercase;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+div.body_product_box_3d div.separator {
+
+    border-top: 2px dotted grey;
+
+    width: 525px;
+
+}
+
+#max_height_move.suit div.box_opts {
+
+    margin-top: 15px;
+
+}
+
+div.body_product_box_3d div.box_opts {
+
+    width: 540px;
+
+    /*float: left;*/
+
+    margin-top: 20px;
+
+}
+
+#max_height_move.suit div.conf_opt {
+
+    margin-bottom: 0;
+
+}
+
+div.box_opts div.conf_opt {
+
+    overflow: hidden;
+
+    margin-bottom: 3px;
+
+}
+
+.box_opts div.conf_opt .box_title {
+
+    width: 130px;
+
+}
+
+.body_product_box_3d .config_3d .box_title, .body_product_box_3d .extra_3d .box_title {
+
+    text-transform: capitalize;
+
+    float: left;
+
+    font-weight: normal;
+
+    overflow: hidden;
+
+}
+
+#max_height_move.suit div.box_title p {
+
+    font-size: 16px;
+
+  float:left;
+
+  text-transform:none;
+
+}
+
+
+
+.box_opts div.conf_opt .box_title p {
+
+    font-size: 14px;
+
+    color: #333;
+
+    
+
+}
+
+#max_height_move.suit div.conf_opt .box_opt {
+
+    padding-left: 160px;
+
+}
+
+.box_opts div.conf_opt .box_opt {
+
+    padding-left: 150px;
+
+}
+
+.box_opts div.conf_opt .box_opt .radio_opt {
+
+    overflow: hidden;
+
+    margin-bottom: 10px;
+
+    line-height: 1.3;
+
+}
+
+#max_height_move.suit label.option {
+
+    font-size: 14px;
+
+}
+
+.box_opts div.conf_opt .box_opt .radio_opt label.option {
+
+    color: #999;
+
+    display: block;
+
+    float: left;
+
+    
+
+    font-size: 14px;
+
+    line-height: 1.2;
+
+}
+
+.body_product_box_3d div.box_opts .option {
+
+    display: block;
+
+    float: left;
+
+    font-size: 16px;
+
+    color: #333;
+
+    
+
+    margin-right: 15px;
+
+    font-weight: bold !important;
+
+}
+
+div.radio {
+
+    position: relative;
+
+    float: left;
+
+}
+
+div.radio {
+
+    margin-right: 5px;
+
+}
+
+div.radio {
+
+    width: 18px;
+
+    height: 18px;
+
+}
+
+.selector, .radio, .checker, .uploader, .selector *, .radio *, .checker *, .uploader * {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+#max_height_move.suit label.option {
+
+    font-size: 14px;
+
+}
+
+.box_opts div.conf_opt .box_opt .radio_opt label.option {
+
+    color: #999;
+
+    
+
+    font-size: 14px;
+
+    line-height: 1.2;
+
+}
+
+div.radio input {
+
+    -moz-opacity: 0;
+
+    opacity: 0;
+
+    filter: alpha(opacity=0);
+
+}
+
+div.radio input {
+
+    opacity: 0;
+
+    text-align: center;
+
+    display: inline-block;
+
+    background-color: black;
+
+}
+
+div.radio input {
+
+    width: 12px;
+
+    height: 17px;
+
+}
+
+.selector, .radio, .checker, .uploader, .selector *, .radio *, .checker *, .uploader * {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+div.radio span {
+
+    text-align: center;
+
+}
+
+div.radio span.checked {
+
+    background-position: -72px -279px;
+
+}
+
+div.radio span {
+
+    display: block;
+
+    float: left;
+
+    text-align: center;
+
+}
+
+div.radio span {
+
+    height: 18px;
+
+    width: 18px;
+
+    background-position: 0 -279px;
+
+}
+
+div.texter, div.texter span, div.selector, div.selector span, div.checker span, div.radio span, div.uploader, div.uploader span.action {
+
+   /* background-image: url(images/form-sprite.png);
+
+    background-repeat: no-repeat;*/
+
+}
+
+#max_height_move.suit label.option {
+
+    font-size: 14px;
+
+}
+
+.box_opts div.conf_opt .box_opt .radio_opt label.option {
+
+    color: #999;
+
+    
+
+    font-size: 14px;
+
+    line-height: 1.2;
+
+}
+
+/*.body_product_box_3d div.box_opts .option {
+
+    font-size: 14px;
+
+    color: #999;
+
+    
+
+}
+
+.body_product_box_3d div.box_opts .option {
+
+    font-size: 14px;
+
+    color: #999;
+
+    
+
+}*/
+
+.body_product_box_3d div.box_opts .option {
+
+    font-size: 16px;
+
+    color: #333;
+
+
+
+    
+
+}
+
+.box_opts div.conf_opt .box_opt .radio_opt {
+
+    line-height: 1.3;
+
+}
+
+.body_product_box_3d div.box_opts .list_common_th.open {
+
+    height: 100%;
+
+}
+
+.body_product_box_3d div.box_opts .list_common_th {
+
+    overflow: hidden;
+
+    height: 100px;
+
+}
+
+.body_product_box_3d div.box_opts .common_th.big_images {
+
+    margin-right: 45px;
+
+}
+
+.body_product_box_3d div.box_opts .common_th {
+
+    display: block;
+
+    float: left;
+
+    margin-right: 30px;
+
+    margin-bottom: 10px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+	clear:none;
+
+}
+
+.body_product_box_3d div.box_opts .common_th .box_model {
+
+    position: relative;
+
+    border: 2px solid #e6e6e6;
+
+    border-radius: 7px;
+
+    box-shadow: 0 4px 7px #DDD;
+
+}
+
+.body_product_box_3d div.box_opts .common_th .box_model .active {
+
+    display: none;
+
+}
+
+.body_product_box_3d div.box_opts .common_th {
+
+    cursor: pointer;
+
+}
+
+.body_product_box_3d div.box_opts .common_th .box_model.suit_belt img {
+
+    width: 79px;
+
+}
+
+.body_product_box_3d div.box_opts .common_th img {
+
+	 max-width: 100%;
+
+    border-radius: 7px;
+
+}
+
+.body_product_box_3d div.box_opts .common_th .box_title_common {
+
+    font-size: 10px;
+
+    font-family: "Arial";
+
+    color: #333;
+
+    width: 83px;
+
+    height: 36px;
+
+}
+
+.body_product_box_3d div.box_opts .common_th .box_title_common p {
+
+    margin-top: 8px;
+
+    width: 115px;
+
+}
+
+.body_product_box_3d div.box_opts .common_th.active .box_model {
+
+    border-color: green;
+
+}
+
+.body_product_box_3d div.box_opts .common_th .box_model {
+
+    position: relative;
+
+    border: 2px solid #e6e6e6;
+
+    border-radius: 7px;
+
+    box-shadow: 0 4px 7px #DDD;
+
+}
+
+.body_product_box_3d div.box_opts .common_th.active .box_model.suit_belt div.active {
+
+    left: 34px;
+
+}
+
+.body_product_box_3d div.box_opts .common_th.active .box_model.big .active {
+
+    left: 49px;
+
+}
+
+.body_product_box_3d div.box_opts .common_th.active .box_model .active {
+
+    display: block;
+
+    width: 13px;
+
+    height: 14px;
+
+    background: url('/images/man/ico_active.png') top left no-repeat;
+
+    position: absolute;
+
+    top: -3px;
+
+    left: 33px;
+
+    border-color: green;
+
+}
+
+.body_product_box_3d div.box_opts .common_th .box_model .active {
+
+    display: none;
+
+}
+
+div.texter, div.texter span, div.selector, div.selector span, div.checker span, div.radio span, div.uploader, div.uploader span.action {
+
+  /*background-image: url(images/form-sprite.png);
+
+  background-repeat: no-repeat;*/
+
+}
+
+.selector, .radio, .checker, .uploader, .selector *, .radio *, .checker *, .uploader * {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+div.texter {
+
+  background-position: left -299px;
+
+  height: 26px;
+
+  padding-left: 5px;
+
+}
+
+div.texter span {
+
+  background-position: right -411px;
+
+  height: 25px;
+
+  display: block;
+
+  padding-right: 5px;
+
+}
+
+div.selector {
+
+  background-position: -483px -130px;
+
+  line-height: 26px;
+
+  height: 26px;
+
+}
+
+div.selector option {
+
+  padding: 3px;
+
+}
+
+div.selector span {
+
+  background-position: right 0;
+
+  height: 26px;
+
+  line-height: 26px;
+
+}
+
+div.selector select {
+
+  top: 0;
+
+  left: 0;
+
+}
+
+div.selector:active, div.selector.active {
+
+  background-position: -483px -156px;
+
+}
+
+div.selector:active span, div.selector.active span {
+
+  background-position: right -26px;
+
+}
+
+div.selector.focus, div.selector.hover, div.selector:hover {
+
+  background-position: -483px -182px;
+
+}
+
+div.selector.focus span, div.selector.hover span, div.selector:hover span {
+
+  background-position: right -52px;
+
+}
+
+div.selector.focus:active, div.selector.focus.active, div.selector:hover:active, div.selector.active:hover {
+
+  background-position: -483px -208px;
+
+}
+
+div.selector.focus:active span, div.selector:hover:active span, div.selector.active:hover span, div.selector.focus.active span {
+
+  background-position: right -78px;
+
+}
+
+div.selector.disabled {
+
+  background-position: -483px -234px;
+
+}
+
+div.selector.disabled span {
+
+  background-position: right -104px;
+
+}
+
+div.checker {
+
+  width: 19px;
+
+  height: 19px;
+
+}
+
+div.checker input {
+
+  width: 19px;
+
+  height: 19px;
+
+}
+
+div.checker span {
+
+  background-position: 0 -260px;
+
+  height: 19px;
+
+  width: 19px;
+
+}
+
+div.checker:active span, div.checker.active span {
+
+  background-position: -19px -260px;
+
+}
+
+div.checker.focus span, div.checker:hover span {
+
+  background-position: -38px -260px;
+
+}
+
+div.checker.focus:active span, div.checker:active:hover span, div.checker.active:hover span, div.checker.focus.active span {
+
+  background-position: -57px -260px;
+
+}
+
+div.checker span.checked {
+
+  background-position: -76px -260px;
+
+}
+
+div.checker:active span.checked, div.checker.active span.checked {
+
+  background-position: -95px -260px;
+
+}
+
+div.checker.focus span.checked, div.checker:hover span.checked {
+
+  background-position: -114px -260px;
+
+}
+
+div.checker.focus:active span.checked, div.checker:hover:active span.checked, div.checker.active:hover span.checked, div.checker.active.focus span.checked {
+
+  background-position: -133px -260px;
+
+}
+
+div.checker.disabled span, div.checker.disabled:active span, div.checker.disabled.active span {
+
+  background-position: -152px -260px;
+
+}
+
+div.checker.disabled span.checked, div.checker.disabled:active span.checked, div.checker.disabled.active span.checked {
+
+  background-position: -171px -260px;
+
+}
+
+div.radio {
+
+  width: 18px;
+
+height: 18px;
+
+}
+
+div.radio input {
+
+  width: 12px;
+
+  height: 17px;
+
+}
+
+div.radio span {
+
+  height: 18px;
+
+  width: 18px;
+
+  background-position: 0 -279px;
+
+}
+
+div.radio:active span, div.radio.active span {
+
+  background-position: -18px -279px;
+
+}
+
+div.radio.focus span, div.radio:hover span {
+
+  background-position: -36px -279px;
+
+}
+
+div.radio.focus:active span, div.radio:active:hover span, div.radio.active:hover span, div.radio.active.focus span {
+
+  background-position: -54px -279px;
+
+}
+
+div.radio span.checked {
+
+  background-position: -72px -279px;
+
+}
+
+div.radio:active span.checked, div.radio.active span.checked {
+
+  background-position: -90px -279px;
+
+}
+
+div.radio.focus span.checked, div.radio:hover span.checked {
+
+  background-position: -108px -279px;
+
+}
+
+div.radio.focus:active span.checked, div.radio:hover:active span.checked, div.radio.focus.active span.checked, div.radio.active:hover span.checked {
+
+  background-position: -126px -279px;
+
+}
+
+div.radio.disabled span, div.radio.disabled:active span, div.radio.disabled.active span {
+
+  background-position: -144px -279px;
+
+}
+
+div.radio.disabled span.checked, div.radio.disabled:active span.checked, div.radio.disabled.active span.checked {
+
+  background-position: -162px -279px;
+
+}
+
+div.uploader {
+
+  background-position: 0 -297px;
+
+  height: 28px;
+
+}
+
+div.uploader span.action {
+
+  background-position: right -409px;
+
+  height: 24px;
+
+  line-height: 24px;
+
+}
+
+div.uploader span.filename {
+
+  height: 24px;
+
+  margin: 2px 0 2px 2px;
+
+  line-height: 24px;
+
+}
+
+div.uploader.focus, div.uploader.hover, div.uploader:hover {
+
+  background-position: 0 -353px;
+
+}
+
+div.uploader.focus span.action, div.uploader.hover span.action, div.uploader:hover span.action {
+
+  background-position: right -437px;
+
+}
+
+div.uploader.active span.action, div.uploader:active span.action {
+
+  background-position: right -465px;
+
+}
+
+div.uploader.focus.active span.action, div.uploader:focus.active span.action, div.uploader.focus:active span.action, div.uploader:focus:active span.action {
+
+  background-position: right -493px;
+
+}
+
+div.uploader.disabled {
+
+  background-position: 0 -325px;
+
+}
+
+div.uploader.disabled span.action {
+
+  background-position: right -381px;
+
+}
+
+/*div.selector {
+
+  margin-bottom: 10px;
+
+  width: 190px;
+
+  font-size: 12px;
+
+}*/
+
+div.selector {
+
+  margin-bottom: 0px;
+
+  width: 90px !important;
+
+  font-size: 12px;
+
+  padding-left:0 !important;
+
+}
+
+div.selector select {
+
+  /*width: 190px;*/
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+font-size:12px border:solid 1px #fff;
+
+}
+
+div.selector span {
+
+  padding: 0 25px 0 2px;
+
+  cursor: pointer;
+
+}
+
+div.selector span {
+
+  color: #333;
+
+  font-size:16px;
+
+  width: 158px;
+
+  text-shadow: 0 1px 0 #fff;
+
+}
+
+div.selector.disabled span {
+
+  color: #bbb;
+
+}
+
+div.checker {
+
+  margin-right: 10px;
+
+}
+
+div.radio {
+
+  margin-right: 5px;
+
+}
+
+div.uploader {
+
+  width: 190px;
+
+  margin-bottom: 20px;
+
+  cursor: pointer;
+
+}
+
+div.uploader span.action {
+
+  width: 85px;
+
+  text-align: center;
+
+  text-shadow: #fff 0 1px 0;
+
+  background-color: #fff;
+
+  font-size: 11px;
+
+  font-weight: bold;
+
+}
+
+div.uploader span.filename {
+
+  color: #777;
+
+  width: 82px;
+
+  border-right: solid 1px #bbb;
+
+  font-size: 11px;
+
+}
+
+div.uploader input {
+
+  width: 190px;
+
+}
+
+div.uploader.disabled span.action {
+
+  color: #aaa;
+
+}
+
+div.uploader.disabled span.filename {
+
+  border-color: #ddd;
+
+  color: #aaa;
+
+}
+
+.selector select:focus, .radio input:focus, .checker input:focus, uploader input:focus {
+
+  outline: 0;
+
+}
+
+div.selector {
+
+  position: relative;
+
+  padding-left: 10px;
+
+  overflow: hidden;
+
+}
+
+div.selector span {
+
+  display: block;
+
+  float: left;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+}
+
+div.selector select {
+
+  position: absolute;
+
+  opacity: 1;
+
+  height: 25px;
+
+  border: none;
+
+  background: none;
+
+  width:90px;
+
+}
+
+div.checker {
+
+  position: relative;
+
+  float: left;
+
+}
+
+div.checker span {
+
+  display: block;
+
+  float: left;
+
+  text-align: center;
+
+}
+
+div.checker input {
+
+  opacity: 0;
+
+  display: inline-block;
+
+  background: none;
+
+}
+
+div.radio {
+
+  position: relative;
+
+  float: left;
+
+}
+
+div.radio span {
+
+  display: block;
+
+  float: left;
+
+  text-align: center;
+
+  width:100%;
+
+}
+
+div.radio input {
+
+  opacity: 0;
+
+  text-align: center;
+
+  display: inline-block;
+
+  background-color: black;
+
+}
+
+div.uploader {
+
+  position: relative;
+
+  float: left;
+
+  overflow: hidden;
+
+  cursor: default;
+
+}
+
+div.uploader span.action {
+
+  float: left;
+
+  display: inline;
+
+  padding: 2px 0;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+}
+
+div.uploader span.filename {
+
+  padding: 0 10px;
+
+  float: left;
+
+  display: block;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+  cursor: default;
+
+}
+
+div.uploader input {
+
+  opacity: 0;
+
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  float: right;
+
+  height: 25px;
+
+  border: none;
+
+  cursor: default;
+
+}
+
+.print_button,.print_button span{
+
+ cursor:pointer;
+
+ margin-top: 0px !important;
+
+}
+
+.print_button.wait,.print_button.wait span{
+
+ cursor: progress;
+
+}
+
+div.radio input{
+
+ -moz-opacity: 0;
+
+  opacity:0;
+
+  filter: alpha(opacity=0);
+
+}
+
+
+
+
+
+
+
+/* Fabric Section */    
+
+#box_fabric_waistcoat {
+
+    display: none;
+
+    margin: 20px 0 0 102px;
+
+    color: #333;
+
+    font-size: 13px;
+
+    
+
+    font-weight: 700;
+
+}
+
+#box_fabric_waistcoat label {
+
+    display: block;
+
+    line-height: 20px;
+
+}
+
+ul#box_tab_suit_view {
+
+    display: none;
+
+    width: 492px;
+
+    height: 50px;
+
+    background: url('../images/man/suit/sprite_selector_suit_view.png') top left no-repeat;
+
+    margin-bottom: 15px;
+
+}
+
+ul#box_tab_suit_view li.jacket {
+
+    width: 249px;
+
+}
+
+ul#box_tab_suit_view li {
+
+    float: left;
+
+    display: block;
+
+    height: 50px;
+
+}
+
+ul#box_tab_suit_view li a {
+
+    display: block;
+
+    height: 100%;
+
+    text-decoration: none;
+
+}
+
+ul#box_tab_suit_view.jacket li.jacket a span {
+
+    color: #000;
+
+}
+
+ul#box_tab_suit_view li a span {
+
+    line-height: 64px;
+
+    font-size: 13px;
+
+    color: #9A9A9A;
+
+    
+
+    margin-left: 10px;
+
+}
+
+ul#box_tab_suit_view li.waistcoat {
+
+    margin-left: 16px;
+
+    width: 227px;
+
+}
+
+#fabric_3d.test_B {
+
+    width: 100%;
+
+    margin-bottom: 20px;
+
+}
+
+#fabric_3d {
+
+    width: 492px;
+
+}
+
+#fabric_3d {
+
+    color: #333;
+
+    font-size: 11px;
+
+}
+
+.test_B #preview_fabric_3d_common {
+
+    position: relative;
+
+}
+
+#fabric_3d.test_B .info_fabric {
+
+    position: absolute;
+
+    /*bottom: 0;
+
+  background: #333;*/
+
+    left: 0;
+
+    right: 0;
+
+    z-index: 10;
+
+    padding: 7px 15px;
+
+    opacity: .8;
+
+  
+
+}
+
+#fabric_3d .info_fabric {
+
+    overflow: hidden;
+
+}
+
+#fabric_3d.test_B .info_fabric .right {
+
+    text-align: right;
+
+}
+
+#fabric_3d .info_fabric .right {
+
+    float: right;
+
+    padding-right: 7px;
+
+}
+
+#fabric_3d.test_B #fabric_simple_composition {
+
+    color: white;
+
+    
+
+    font-size: 14px;
+
+}
+
+#fabric_3d .info_fabric p {
+
+    line-height: 20px;
+
+}
+
+#fabric_simple_composition {
+
+    font-size: 15px;
+
+    color: #999;
+
+    text-align: right;
+
+    font-weight: bold;
+
+}
+
+p#fabric_brightness {
+
+    color: #666;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+#fabric_3d .info_fabric .left {
+
+    float: left;
+
+    padding-left: 0px;
+
+  /*padding-left: 7px;*/
+
+  }
+
+#fabric_3d.test_B .left p {
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: 300;
+
+  text-transform:uppercase;
+
+}
+
+#fabric_3d .info_fabric p {
+
+    line-height: 20px;
+
+}
+
+#fabric_name.big {
+
+    font-size: 18px;
+
+    color: #666;
+
+    font-weight: bold;
+
+}
+
+.test_B #fabric_name {
+
+    color: #FFF;
+
+}
+
+#fabric_name {
+
+    font-size: 14px;
+
+    color: #666;
+
+}
+
+#fabric_name {
+
+    font-size: 14px;
+
+    color: #666;
+
+    font-weight: bold;
+
+}
+
+#fabric_3d .info_fabric #second_row_info {
+
+    font-size: 12px;
+
+}
+
+
+
+#fabric_3d .info_fabric p {
+
+    line-height: 10px;
+
+}
+
+#fabric_3d.test_B div.preview {
+
+    /*height: 245px;*/
+
+    -webkit-border-radius: 0;
+
+    -moz-border-radius: 0;
+
+    border-radius: 0;
+
+}
+
+#fabric_3d div.preview {
+
+   /* height: 177px;*/
+
+    background: black;
+
+    position: relative;
+
+    -webkit-border-radius: 4px;
+
+    -moz-border-radius: 4px;
+
+    border-radius: 4px;
+
+}
+
+#rank_label.urban {
+
+    display: block;
+
+    background: url('../images/man/suit/ranks/urban.png') top left no-repeat;
+
+}
+
+#rank_label {
+
+    width: 85px;
+
+    height: 85px;
+
+    background: yellow;
+
+    display: none;
+
+    position: absolute;
+
+}
+
+#fabric_3d.test_B div.preview .view_fabric {
+
+    left: 0;
+
+    right: 0;
+
+    top: 0;
+
+    bottom: 0;
+
+    display: block;
+
+    width: auto;
+
+    height: auto;
+
+    background: url('../images/fabrics/ico_view.png') center 86px no-repeat;
+
+}
+
+#fabric_3d div.preview .view_fabric {
+
+    background: url('../images/lupa_tejido.png') 1px 0 no-repeat;
+
+    background-color: #808080;
+
+    bottom: 11px;
+
+    display: block;
+
+    height: 28px;
+
+    padding: 0;
+
+    position: absolute;
+
+    right: 11px;
+
+    width: 29px;
+
+}
+
+.test_B #filters_fake_box {
+
+    min-height: 39px;
+
+}
+
+#filters_fake_box {
+
+    min-height: 81px;
+
+}
+
+.test_B #filters {
+
+    margin-top: 14px;
+
+}
+
+#filters {
+
+    position: relative;
+
+}
+
+#fabric_3d.test_B #slider_fabrics {
+
+    width: auto;
+
+    overflow: hidden;
+
+    height: auto;
+
+    margin-left: 0px;
+
+	margin-top:10px;
+
+}
+
+#fabric_3d #slider_fabrics {
+
+    width: 492px;
+
+    height: 358px;
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+.test_B div.fabric_box {
+
+    min-height: 0;
+
+}
+
+/*@media (min-aspect-ratio: 16/9), (min-width: 1800px)
+
+.test_C .fabric_box_3d {
+
+    width: 25%;
+
+}
+
+.test_B .fabric_box_3d {
+
+    width: 33.3%;
+
+    margin: 10px 0 0 0;
+
+    height: auto;
+
+}
+
+div.fabric_box {
+
+    float: left;
+
+    margin: 0 13px 0 0;
+
+    min-height: 135px;
+
+    width: 153px;
+
+    overflow: hidden;
+
+}
+
+.fabric_box_3d {
+
+    float: left;
+
+    margin: 0 7px 4px 6px;
+
+    height: 118px;
+
+    width: 110px;
+
+    overflow: hidden;
+
+}
+
+.test_B .fabric_box_3d .image.selected {
+
+    width: auto;
+
+    border: 0;
+
+    height: 100%;
+
+}
+
+.fabric_box_3d .image.selected {
+
+    border: 2px solid #b01c2a;
+
+    border-bottom: none;
+
+    width: 106px;
+
+    height: 74px;
+
+}
+
+.test_B .fabric_box_3d .image {
+
+    width: auto;
+
+    margin: 1px 0 0 15px;
+
+    height: 100%;
+
+    -webkit-border-radius: 0;
+
+    -moz-border-radius: 0;
+
+    border-radius: 0;
+
+    border: 0;
+
+}
+
+div.fabric_box div.image {
+
+    position: relative;
+
+}
+
+.fabric_box_3d .image {
+
+    border: 2px solid white;
+
+    border-bottom: none;
+
+    position: relative;
+
+    -webkit-border-radius: 9px 9px 0 0;
+
+    -moz-border-radius: 9px 9px 0 0;
+
+    border-radius: 9px 9px 0 0;
+
+    margin-top: 3px;
+
+}
+
+.test_B .fabric_box_3d .image:before {
+
+    content: ' ';
+
+    display: block;
+
+    background: #FFF;
+
+    width: 100%;
+
+    height: 1px;
+
+    position: absolute;
+
+    margin-top: 112px;
+
+  }
+
+  @media (min-aspect-ratio: 16/9), (min-width: 1800px)
+
+.test_C .fabric_box_3d .image a {
+
+    height: 128px;
+
+}
+
+.test_B .fabric_box_3d .image a {
+
+    width: auto;
+
+    height: 150px;
+
+    position: relative;
+
+    background-size: 100%;
+
+    overflow: hidden;
+
+}
+
+div.fabric_box div.image a {
+
+    display: block;
+
+    width: 153px;
+
+    height: 91px;
+
+}
+
+.fabric_box_3d .image a {
+
+    display: block;
+
+    width: 106px;
+
+    height: 74px;
+
+}
+
+.test_B .fabric_box_3d .image.selected .thumb_preview {
+
+    display: block;
+
+}
+
+@media (min-aspect-ratio: 16/9), (min-width: 1800px)
+
+.test_C .fabric_box_3d .image .thumb_preview {
+
+    top: 63px;
+
+}
+
+.test_B .fabric_box_3d .image .thumb_preview {
+
+    display: none;
+
+    width: 29px;
+
+    height: 29px;
+
+    background: url('../images/fabrics/mini_ico_view.png') 0 -1px no-repeat;
+
+    position: absolute;
+
+    top: 84px;
+
+    right: 0;
+
+}
+
+.test_B .fabric_box_3d .image.selected .info {
+
+    border-top: 4px solid #cc3d3f;
+
+}
+
+.test_B .fabric_box_3d .image .info {
+
+    border-top: 4px solid #FFF;
+
+    height: 28px;
+
+}
+
+.test_B .fabric_box_3d .info {
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    width: auto;
+
+    background: #FFF;
+
+    height: auto;
+
+    padding: 0 0 5px 0;
+
+}
+
+.fabric_box_3d .info {
+
+    height: 38px;
+
+    color: #333;
+
+    width: 100%;
+
+    overflow: hidden;
+
+    background: url('/images/bg_title_fabric.png') top left no-repeat;
+
+}
+
+.test_B .fabric_box_3d .info .box_title {
+
+    float: left;
+
+    text-transform: capitalize;
+
+    font-weight: normal;
+
+}
+
+.body_product_box_3d .box_title {
+
+    
+
+    text-transform: uppercase;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-top: 1px;
+
+}
+
+.test_B .fabric_box_3d .info .title, .test_B .fabric_box_3d .info .price {
+
+    
+
+    font-size: 12px;
+
+    color: #000;
+
+}
+
+.test_B .fabric_box_3d .info .composition {
+
+    
+
+    font-size: 10px;
+
+    color: #909090;
+
+    text-transform: uppercase;
+
+}
+
+.test_B .fabric_box_3d .info .box_price {
+
+    float: right;
+
+}
+
+.b-lazy.b-loaded {
+
+    opacity: 1;
+
+}
+
+img.b-lazy {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.b-lazy {
+
+    -webkit-transition: opacity 500ms ease-in-out;
+
+    -moz-transition: opacity 500ms ease-in-out;
+
+    -o-transition: opacity 500ms ease-in-out;
+
+    transition: opacity 500ms ease-in-out;
+
+    max-width: 100%;
+
+    opacity: 0;
+
+}
+
+*/
+
+/* Extras */
+
+.body_product_box_3d div.box_opts div.extra_opt {
+
+    margin-bottom: 10px;
+
+    overflow: hidden;
+
+}
+
+#extra_form.man_shirt .extra_opt .box_title.main {
+
+    cursor: pointer;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title {
+
+    float: none;
+
+    margin-bottom: 10px;
+
+}
+
+.body_product_box_3d .config_3d .box_title, .body_product_box_3d .extra_3d .box_title {
+
+    text-transform: capitalize;
+
+    float: left;
+
+    font-weight: normal;
+
+    overflow: hidden;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt {
+
+    margin-bottom: 0px;
+
+    overflow: hidden;
+
+}
+
+#extra_form.man_shirt .extra_opt .box_title.main {
+
+    cursor: pointer;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title {
+
+    float: none;
+
+    margin-bottom: 10px;
+
+}
+
+#extra_form.man_shirt .extra_opt .box_title.close .btn_slider {
+
+    display: block;
+
+    float: left;
+
+    width: 22px;
+
+    height: 22px;
+
+    background: url('../images/man/shirt/extras/box_close.jpg') top left no-repeat;
+
+}
+
+#extra_form.man_shirt .extra_opt .box_title.main .btn_slider {
+
+    cursor: pointer;
+
+}
+
+#extra_form.man_shirt .extra_opt .box_title.close p.name {
+
+    margin-left: 32px;
+
+    color: #333;
+
+    font-weight: bold;
+
+}
+
+#extra_form.man_shirt .extra_opt .box_title.close p.name span {
+
+    font-weight: normal;
+
+    color: #333;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title p span {
+
+    color: #999;
+
+    font-size: 14px;
+
+}
+
+#extra_form.man_shirt .extra_opt .box_title.close .btn_cancel_add {
+
+    float: right;
+
+    display: block;
+
+}
+
+#extra_form.man_shirt .extra_opt .box_title .btn_cancel_add {
+
+    margin-right: 3px;
+
+    border-bottom: 1px dotted #999;
+
+    
+
+    font-style: italic;
+
+    font-size: 16px;
+
+    color: #999;
+
+}
+
+.extra_opt .box_title .btn_cancel_add {
+
+    margin-right: 3px;
+
+    border-bottom: 1px dotted #999;
+
+    
+
+    font-style: italic;
+
+    font-size: 16px;
+
+    color: #999;
+
+}
+
+#extra_form.man_shirt .window {
+
+    margin-left: 30px;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .op_initials {
+
+    margin-bottom: 7px;
+
+    overflow: hidden;
+
+}
+
+#extra_form.man_shirt .window.initials div.img_position_initials.sleeve {
+
+    background-position: 0 -179px;
+
+}
+
+#extra_form.man_shirt .window.initials div.img_position_initials {
+
+    float: left;
+
+    margin-right: 30px;
+
+    background: url('../images/man/shirt/initials/all_positions.jpg') top left no-repeat;
+
+    width: 301px;
+
+    height: 179px;
+
+}
+
+#extra_form.man_shirt .window.initials div.img_position_initials div {
+
+    height: 178px;
+
+}
+
+#extra_form.man_shirt .window.initials .op_initials .right {
+
+    float: left;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title {
+
+    float: none;
+
+    margin-bottom: 10px;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title p {
+
+    color: #333;
+
+    
+
+    font-size: 14px;
+
+}
+
+#extra_form.man_shirt .window.initials .op_initials .right label.positions {
+
+    display: block;
+
+    color: #999;
+
+    font-size: 14px;
+
+    margin-bottom: 9px;
+
+    
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .op_initials {
+
+    margin-bottom: 7px;
+
+    overflow: hidden;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .op_initials span.info_text_initial {
+
+    color: #333;
+
+    font-size: 19px;
+
+    
+
+    margin-right: 33px;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .op_initials input.my_uniform {
+
+    border: 1px solid #999;
+
+    padding: 3px 5px;
+
+    border-radius: 3px;
+
+    color: #333;
+
+    margin-right: 10px;
+
+    font-size: 21px;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .op_initials div.box_font_initial label {
+
+    font-family: "Libre Baskerville";
+
+    font-size: 16px;
+
+    color: #333;
+
+    font-style: italic;
+
+    display: block;
+
+    margin-bottom: 5px;
+
+}
+
+#extra_form.man_waistcoat .window.initials .option_trigger a.box_color img.color {
+
+    border-radius: 4px;
+
+    width: 20px;
+
+}
+
+#extra_form.man_jacket .window.initials .option_trigger a.box_color img.color {
+
+    border-radius: 4px;
+
+    width: 20px;
+
+}
+
+#extra_form.man_waistcoat .option_trigger a.box_color img.color {
+
+    border-radius: 4px;
+
+    width: 20px;
+
+}
+
+#extra_form.man_jacket .option_trigger a.box_color img.color {
+
+    border-radius: 4px;
+
+    width: 20px;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_opt div.common_color a.box_color img {
+
+    border-radius: 4px;
+
+}
+
+#extra_form.man_waistcoat .op_lining, #extra_form div.box_opt_lining {
+
+    overflow: hidden;
+
+} 
+
+#extra_form.man_waistcoat .box_opt_lining label {
+
+      /*font-family: "lato";*/
+
+	font-family: "nunitolight",sans-serif;
+
+    color: #333;
+
+    font-size: 14px;
+
+    display: block;
+
+    height: 22px;
+
+}
+
+#extra_form.man_jacket .box_opt_lining label, #extra_form.man_jacket .box_opt_sash label, #extra_form.man_jacket .box_opt_type_flap label, #extra_form.man_jacket .box_opt_bowtie label, #extra_form.man_jacket .box_opt_contrasts label, #extra_form.man_jacket div.lateral_right label, #extra_form.man_jacket div.apply_at label {
+
+     color: #333;
+
+    font-size: 14px;
+
+    display: block;
+
+    height: 22px;
+
+}
+
+#extra_form div.deco_lining {
+
+    cursor: pointer;
+
+    display:none !important;
+
+}
+
+#extra_form .personalized_box {
+
+    width: auto;
+
+    display: none;
+
+}
+
+#extra_form div.lining_3d {
+
+    width: 504px;
+
+}
+
+#extra_form div.lining_3d {
+
+    width: 492px;
+
+    color: #333;
+
+    font-size: 11px;
+
+}
+
+#extra_form div.lining_3d div.preview_fabric_3d_common {
+
+    width: 470px;
+
+}
+
+#extra_form div.lining_3d span.prev {
+
+    line-height: 229px;
+
+    cursor: pointer;
+
+  display:none;
+
+}
+
+#extra_form div.lining_3d div.slider_fabrics {
+
+   /*height: 226px;*/
+
+   height:120px;
+
+    float: left;
+
+    width: 447px;
+
+    margin: 0 5px 0 5px;
+
+}
+
+#extra_form div.lining_3d div.slider_fabrics {
+
+    width: 492px;
+
+   /* height: 341px;*/
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+div.slider_box {
+
+    position: absolute;
+
+}
+
+div.slider_box td.page.d3 {
+
+    width: 494px;
+
+}
+
+div.slider_box td.page.d3 {
+
+    width: 494px;
+
+}
+
+div.slider_box td.page {
+
+    width: 700px;
+
+}
+
+#extra_form div.lining_3d .fabric_box_3d {
+
+    margin: 0 1px 4px 1px;
+
+}
+
+.fabric_box_3d {
+
+    float: left;
+
+    margin: 0 7px 4px 6px;
+
+    height: 118px;
+
+    width: 110px;
+
+    overflow: hidden;
+
+}
+
+.fabric_box_3d .image {
+
+    border: 2px solid white;
+
+    border-bottom: none;
+
+    position: relative;
+
+    -webkit-border-radius: 9px 9px 0 0;
+
+    -moz-border-radius: 9px 9px 0 0;
+
+    border-radius: 9px 9px 0 0;
+
+    margin-top: 3px;
+
+}
+
+.fabric_box_3d .image img.selected {
+
+    position: absolute;
+
+    top: -6px;
+
+    left: 47px;
+
+}
+
+.fabric_box_3d .image a {
+
+    display: block;
+
+   /*width: 106px;
+
+    height: 74px;*/
+
+  width: 130px;
+
+    height: 90px
+
+}
+
+.fabric_box_3d .info {
+
+    height: 38px;
+
+    color: #333;
+
+    width: 100%;
+
+    overflow: hidden;
+
+    background: url('/images/bg_title_fabric.png') top left no-repeat;
+
+}
+
+.fabric_box_3d .info td.title {
+
+    width: 90px;
+
+    padding-left: 5px;
+
+}
+
+.fabric_box_3d .info td {
+
+    vertical-align: middle;
+
+    padding-bottom: 10px;
+
+}
+
+.fabric_box_3d .info td.season {
+
+    padding-right: 5px;
+
+}
+
+.fabric_box_3d .info td {
+
+    vertical-align: middle;
+
+    padding-bottom: 10px;
+
+}
+
+#extra_form div.lining_3d .fabric_box_3d {
+
+    margin: 0 1px 4px 1px;
+
+}
+
+.fabric_box_3d {
+
+    float: left;
+
+    /*margin: 0 7px 4px 6px;
+
+    height: 118px;
+
+    width: 110px;*/
+
+  height: 150px;
+
+    width: 130px;
+
+    overflow: hidden;
+
+}
+
+.fabric_box_3d .image {
+
+    border: 2px solid white;
+
+    border-bottom: none;
+
+    position: relative;
+
+    -webkit-border-radius: 9px 9px 0 0;
+
+    -moz-border-radius: 9px 9px 0 0;
+
+    border-radius: 9px 9px 0 0;
+
+    margin-top: 3px;
+
+}
+
+#extra_form div.lining_3d span.next {
+
+    float: left;
+
+    line-height: 229px;
+
+    cursor: pointer;
+
+    width: 16px;
+
+  display:none;
+
+}
+
+/*#extra_form.man_waistcoat .extra_opt .box_title.main {
+
+    cursor: pointer;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.main {
+
+    cursor: pointer;
+
+}*/
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title {
+
+    float: none;
+
+    margin-bottom: 10px;
+
+}
+
+.body_product_box_3d .config_3d .box_title, .body_product_box_3d .extra_3d .box_title {
+
+    text-transform: capitalize;
+
+    float: left;
+
+    font-weight: normal;
+
+    overflow: hidden;
+
+}
+
+.body_product_box_3d .box_title {
+
+    text-transform: uppercase;
+
+    font-size: 16px;
+
+    font-weight: normal;
+
+    margin-top: 1px;
+
+}
+
+/*#extra_form.man_waistcoat .extra_opt .box_title.open .btn_slider {
+
+    display: block;
+
+    float: left;
+
+    width: 22px;
+
+    height: 22px;
+
+    background: url('../images/man/shirt/extras/box_open.jpg') top left no-repeat;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.open .btn_slider {
+
+    display: block;
+
+    float: left;
+
+    width: 22px;
+
+    height: 22px;
+
+    background: url('../images/man/shirt/extras/box_open.jpg') top left no-repeat;
+
+}
+
+#extra_form.man_waistcoat .extra_opt .box_title.main .btn_slider {
+
+    cursor: pointer;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.main .btn_slider {
+
+    cursor: pointer;
+
+}
+
+/*#extra_form.man_waistcoat .extra_opt .box_title.open p.name {
+
+    margin-left: 32px;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.open p.name {
+
+    margin-left: 32px;
+
+}*/
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title p {
+
+    color: #333;
+
+    
+
+    font-size: 14px;
+
+}
+
+/*#extra_form.man_waistcoat .extra_opt .box_title.open p.name {
+
+    margin-left: 32px;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.open p.name {
+
+    margin-left: 32px;
+
+  text-transform:uppercase;
+
+}*/
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title p {
+
+    color: #333;
+
+    
+
+    font-size: 14px;
+
+}
+
+#extra_form.man_waistcoat .extra_opt .box_title.open p.name span {
+
+    color: #999;
+
+    font-size: 16px;
+
+}
+
+/*#extra_form.man_jacket .extra_opt .box_title.open p.name span {
+
+    color: #999;
+
+    font-size: 16px;
+
+}*/
+
+#extra_form .extra_opt .box_title.open p.name span {
+
+    font-size: 14px;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title p span {
+
+    color: #999;
+
+    font-size: 14px;
+
+}
+
+#extra_form.man_waistcoat .extra_opt .box_title.open .btn_cancel_add {
+
+    float: right;
+
+    display: block;
+
+}
+
+#extra_form.man_waistcoat .extra_opt .box_title.open .btn_cancel_add {
+
+    float: right;
+
+    display: none;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.open .btn_cancel_add {
+
+    float: right;
+
+    display: block;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.open .btn_cancel_add {
+
+    float: right;
+
+    display: none;
+
+}
+
+#extra_form.man_waistcoat .extra_opt .box_title .btn_cancel_add {
+
+    margin-right: 3px;
+
+    border-bottom: 1px dotted #999;
+
+    
+
+    font-style: italic;
+
+    font-size: 16px;
+
+    color: #999;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title .btn_cancel_add {
+
+    margin-right: 3px;
+
+    border-bottom: 1px dotted #999;
+
+    
+
+    font-style: italic;
+
+    font-size: 16px;
+
+    color: #999;
+
+}
+
+.extra_opt .box_title .btn_cancel_add {
+
+    margin-right: 3px;
+
+    border-bottom: 1px dotted #999;
+
+    
+
+    font-style: italic;
+
+    font-size: 16px;
+
+    color: #999;
+
+}
+
+#extra_form.man_waistcoat .window {
+
+    margin-left: 30px;
+
+}
+
+#extra_form.man_jacket .window {
+
+    margin-left: 30px;
+
+}
+
+#extra_form.man_waistcoat .window.initials div.img_position_initials.is_jacket{
+
+    background: url('../images/man/suit/initials/interior_jacket.jpg') top left no-repeat;
+
+}
+
+#extra_form.man_waistcoat .window.initials div.img_position_initials1.is_jacket {
+
+  background: url('../images/man/suit/initials/interior_jacket1.JPG') top left no-repeat;
+
+}
+
+#extra_form.man_waistcoat .window.initials div.img_position_initials2.is_jacket {
+
+  background: url('../images/man/suit/initials/interior_jacket2.JPG') top left no-repeat;
+
+}
+
+#extra_form.man_waistcoat .window.initials div.img_position_initials,#extra_form.man_waistcoat .window.initials div.img_position_initials1,#extra_form.man_waistcoat .window.initials div.img_position_initials2 {
+
+    float: left;
+
+    margin-right: 30px;
+
+    background: url('../images/man/suit/initials/interior_waistcoat.jpg') top left no-repeat;
+
+    width: 301px;
+
+    height: 179px;
+
+}
+
+#extra_form.man_jacket .window.initials div.img_position_initials {
+
+    float: left;
+
+    margin-right: 30px;
+
+    background: url('../images/man/suit/initials/interior_jacket.jpg') top left no-repeat;
+
+    width: 301px;
+
+    height: 179px;
+
+}
+
+#extra_form.man_jacket .window.initials div.img_position_initials1 {
+
+    float: left;
+
+    margin-right: 30px;
+
+    background: url('../images/man/suit/initials/interior_jacket1.JPG') top left no-repeat;
+
+    width: 301px;
+
+    height: 179px;
+
+}
+
+#extra_form.man_jacket .window.initials div.img_position_initials2 {
+
+    float: left;
+
+    margin-right: 30px;
+
+    background: url('../images/man/suit/initials/interior_jacket2.JPG') top left no-repeat;
+
+    width: 301px;
+
+    height: 179px;
+
+}
+
+#extra_form.man_waistcoat .window.initials div.img_position_initials div,#extra_form.man_waistcoat .window.initials div.img_position_initials1 div,#extra_form.man_waistcoat .window.initials div.img_position_initials2 div {
+
+    height: 178px;
+
+}
+
+#extra_form.man_jacket .window.initials div.img_position_initials div,#extra_form.man_jacket .window.initials div.img_position_initials1 div,#extra_form.man_jacket .window.initials div.img_position_initials2 div {
+
+    height: 178px;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .op_initials span.info_text_initial {
+
+    color: #333;
+
+    font-size: 19px;
+
+    
+
+    margin-right: 33px;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .op_initials input.my_uniform {
+
+    border: 1px solid #999;
+
+    padding: 3px 5px;
+
+    border-radius: 3px;
+
+    color: #333;
+
+    margin-right: 10px;
+
+    font-size: 21px;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_opt .list_common_color {
+
+    overflow: hidden;
+
+    margin-top: 10px;
+
+}
+
+#extra_form.man_waistcoat .window.initials div.common_color {
+
+    float: left;
+
+    margin: 0 13px 13px 0;
+
+}
+
+#extra_form.man_jacket .window.initials div.common_color {
+
+    float: left;
+
+    margin: 0 13px 13px 0;
+
+}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_opt .list_common_color div.common_color {
+
+    float: left;
+
+    margin: 0 14px 13px 0;
+
+}
+
+/*#extra_form.man_waistcoat .extra_opt .box_title.main {
+
+    cursor: pointer;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.main {
+
+    cursor: pointer;
+
+}*/
+
+
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title {
+
+    float: none;
+
+    margin-bottom: 10px;
+
+}
+
+.body_product_box_3d .config_3d .box_title, .body_product_box_3d .extra_3d .box_title {
+
+    text-transform: capitalize;
+
+    float: left;
+
+    font-weight: normal;
+
+    overflow: hidden;
+
+}
+
+#extra_form.man_jacket div.lateral_right {
+
+    float: left;
+
+    padding: 0 10px;
+
+}
+
+#extra_form div.box_opt_lining {
+
+    overflow: hidden;
+
+}
+
+#extra_form.man_jacket div.personalized_box.lateral {
+
+    overflow: hidden;
+
+    padding-top: 0px;
+
+    width: 245px;
+
+}
+
+#extra_form.man_jacket div.personalized_box.lateral div.option_trigger {
+
+    float: left;
+
+    margin: 2px;
+
+    overflow: hidden;
+
+}
+
+#extra_form.man_waistcoat .option_trigger a.box_color {
+
+    float: left;
+
+    border: 2px solid white;
+
+    position: relative;
+
+}
+
+#extra_form.man_jacket .option_trigger a.box_color {
+
+    float: left;
+
+    border: 2px solid white;
+
+    position: relative;
+
+}
+
+#extra_form.man_jacket div.lateral_right .option_trigger a.box_color img.big_color {
+
+    width: 80px;
+
+}
+
+
+
+#extra_form.man_waistcoat .option_trigger a.box_color img.color {
+
+    border-radius: 4px;
+
+    width: 20px;
+
+}
+
+#extra_form.man_jacket .option_trigger a.box_color img.color {
+
+    border-radius: 4px;
+
+    width: 20px;
+
+}
+
+#extra_form.man_jacket div.lateral_img.img_neck {
+
+    background: #FFF url("../images/man/suit/neck_lining.jpg") top left no-repeat;
+
+}
+
+#extra_form.man_jacket div.lateral_img2.img_neck {
+
+    background: #FFF url("../images/man/suit/neck_lining2.JPG") top left no-repeat;
+
+}
+
+#extra_form.man_jacket div.lateral_img,#extra_form.man_jacket div.lateral_img2 {
+
+    margin-right: 10px;
+
+    width: 201px;
+
+    height: 137px;
+
+    float: left;
+
+}
+
+#extra_form.man_jacket div.lateral_right {
+
+    float: left;
+
+    padding: 0 10px;
+
+}
+
+#extra_form.man_jacket div.lateral_img.img_patches {
+
+    background: #FFF url("../images/man/suit/patches.jpg") top left no-repeat;
+
+}
+
+#extra_form.man_jacket div.lateral_img.img_patches1 {
+
+    background: #FFF url("../images/man/shirt/shirt_elbow_patch.JPG") top left no-repeat;
+
+}
+
+#extra_form.man_jacket div.lateral_img.img_patches2 {
+
+    background: #FFF url("../images/man/suit/suit_elbow_patch.JPG") top left no-repeat;
+
+}
+
+#extra_form.man_jacket div.lateral_img {
+
+    margin-right: 10px;
+
+    width: 201px;
+
+    height: 137px;
+
+    float: left;
+
+}
+
+#extra_form.man_jacket div.apply_at {
+
+    margin: 5px 0 0;
+
+    overflow: hidden;
+
+}
+
+.man_waistcoat #img_ojal_hilo {
+
+    float: left;
+
+    display: block;
+
+    width: 199px;
+
+    height: 135px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: 7px;
+
+}
+
+.man_jacket #img_ojal_hilo {
+
+    float: left;
+
+    display: block;
+
+    width: 199px;
+
+    height: 135px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: 7px;
+
+}
+
+.man_waistcoat #img_ojal_hilo div.fabric {
+
+    z-index: 10;
+
+}
+
+.man_jacket #img_ojal_hilo div.fabric {
+
+    z-index: 10;
+
+}
+
+.man_waistcoat #img_ojal_hilo div {
+
+    position: absolute;
+
+    width: 199px;
+
+    height: 135px;
+
+}
+
+.man_jacket #img_ojal_hilo div {
+
+    position: absolute;
+
+    width: 199px;
+
+    height: 135px;
+
+}
+
+.man_waistcoat #img_ojal_hilo div.ojal {
+
+    z-index: 20;
+
+    background: url('../images/man/suit/extras/hilo_ojal/ojales.png') top left no-repeat;
+
+}
+
+.man_jacket #img_ojal_hilo div.ojal {
+
+    z-index: 20;
+
+    background: url('../images/man/suit/extras/hilo_ojal/ojales.png') top left no-repeat;
+
+}
+
+.man_waistcoat #img_ojal_hilo div {
+
+    position: absolute;
+
+    width: 199px;
+
+    height: 135px;
+
+}
+
+.man_jacket #img_ojal_hilo div {
+
+    position: absolute;
+
+    width: 199px;
+
+    height: 135px;
+
+}
+
+.man_waistcoat #img_ojal_hilo div.boton {
+
+    z-index: 30;
+
+}
+
+.man_jacket #img_ojal_hilo div.boton {
+
+    z-index: 30;
+
+}
+
+.man_waistcoat #img_ojal_hilo div {
+
+    position: absolute;
+
+    width: 199px;
+
+    height: 135px;
+
+}
+
+.man_jacket #img_ojal_hilo div {
+
+    position: absolute;
+
+    width: 199px;
+
+    height: 135px;
+
+}
+
+.man_waistcoat #img_ojal_hilo div.hilo {
+
+    z-index: 40;
+
+    background: url('../images/man/suit/extras/hilo_ojal/hilos.png') top left no-repeat;
+
+}
+
+.man_jacket #img_ojal_hilo div.hilo {
+
+    z-index: 40;
+
+    background: url('../images/man/suit/extras/hilo_ojal/hilos.png') top left no-repeat;
+
+}
+
+.man_waistcoat #img_ojal_hilo div {
+
+    position: absolute;
+
+    width: 199px;
+
+    height: 135px;
+
+}
+
+.man_jacket #img_ojal_hilo div {
+
+    position: absolute;
+
+    width: 199px;
+
+    height: 135px;
+
+}
+
+#extra_form.man_waistcoat div.window.hilo_ojal .list_common_color {
+
+    margin-left: 218px;
+
+    overflow: hidden;
+
+    margin-bottom: 10px;
+
+    margin-top: 8px;
+
+	display:block !important;
+
+}
+
+#extra_form.man_jacket div.window.hilo_ojal .list_common_color {
+
+    margin-left: 218px;
+
+    overflow: hidden;
+
+    margin-bottom: 10px;
+
+    margin-top: 8px;
+
+	display:block !important;
+
+}
+
+#extra_form.man_waistcoat div.window.hilo_ojal .list_common_color div.option_trigger {
+
+    float: left;
+
+    margin: 0 2px 6px 0;
+
+}
+
+#extra_form.man_jacket div.window.hilo_ojal .list_common_color div.option_trigger {
+
+    float: left;
+
+    margin: 0 2px 6px 0;
+
+}
+
+#extra_form.man_waistcoat div.window.hilo_ojal .list_common_color {
+
+    margin-left: 218px;
+
+    overflow: hidden;
+
+    margin-bottom: 10px;
+
+    margin-top: 8px;
+
+	display:block !important;
+
+}
+
+#extra_form.man_waistcoat div.window.hilo_ojal .list_common_color div.option_trigger {
+
+    float: left;
+
+    margin: 0 2px 6px 0;
+
+}
+
+#extra_form.man_jacket div.lateral_right div.common_color.active a.box_color div.active {
+
+    background: url("../images/man/ico_active.png") no-repeat scroll left top transparent;
+
+    display: block;
+
+    height: 14px;
+
+    left: 6px;
+
+    position: absolute;
+
+    top: -3px;
+
+    width: 13px;
+
+}
+
+#extra_form.man_waistcoat .option_trigger.active a.box_color {
+
+    border: 2px solid green;
+
+    border-radius: 6px;
+
+}
+
+#extra_form.man_jacket .option_trigger.active a.box_color {
+
+    border: 2px solid green;
+
+    border-radius: 6px;
+
+}
+
+#extra_form.man_waistcoat .option_trigger a.box_color {
+
+    float: left;
+
+    border: 2px solid white;
+
+    position: relative;
+
+}
+
+#extra_form.man_jacket .option_trigger a.box_color {
+
+    float: left;
+
+    border: 2px solid white;
+
+    position: relative;
+
+}
+
+#extra_form div.lining_3d div.preview {
+
+    width: 470px;
+
+    height: 140px;
+
+    border-radius: 4px 4px 4px 4px;
+
+    float: left;
+
+}
+
+#extra_form div.lining_3d div.preview {
+
+    width: 492px;
+
+    height: 177px;
+
+	display:block;
+
+    background: black;
+
+    margin-top: 8px;
+
+    position: relative;
+
+    -webkit-border-radius: 4px;
+
+    -moz-border-radius: 4px;
+
+    border-radius: 4px;
+
+}
+
+#extra_form.man_waistcoat .extra_opt .box_title.open .btn_cancel_add {
+
+    float: right;
+
+    display: block;
+
+}
+
+#extra_form.man_waistcoat .extra_opt .box_title.open .btn_cancel_add {
+
+    float: right;
+
+    display: none;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.open .btn_cancel_add {
+
+    float: right;
+
+    display: block;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.open .btn_cancel_add {
+
+    float: right;
+
+    display: block;
+
+}
+
+#extra_form.man_waistcoat .extra_opt .box_title .btn_cancel_add {
+
+    margin-right: 3px;
+
+    border-bottom: 1px dotted #999;
+
+    
+
+    font-style: italic;
+
+    font-size: 16px;
+
+    color: #999;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title .btn_cancel_add {
+
+    margin-right: 3px;
+
+    border-bottom: 1px dotted #999;
+
+    
+
+    font-style: italic;
+
+    font-size: 16px;
+
+    color: #999;
+
+}
+
+.extra_opt .box_title .btn_cancel_add {
+
+    margin-right: 3px;
+
+    border-bottom: 1px dotted #999;
+
+    
+
+    font-style: italic;
+
+    font-size: 16px;
+
+    color: #999;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.close .btn_cancel_add {
+
+    display: none;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.open .btn_cancel_add {
+
+    float: right;
+
+    display: block;
+
+}
+
+#extra_form.man_jacket .extra_opt .box_title.main {
+
+    /*cursor: pointer;*/
+
+    margin-left: 30px !important;
+
+}
+
+div.box_title.open:before{transform:rotate(0deg)}
+
+#extra_form.man_jacket .extra_opt .box_title.open.main{ width:95%}
+
+
+
+/* Customizer Style */
+
+.body_product_box_3d div.box_opts .common_th.active .box_model:before { content: "*"; position: absolute; background:#000;  width:18px; height:18px; border-radius:50%; line-height: 20px; text-align: center; right:-5px; top:-8px; color:#fff; padding-top:4px; font-size:20px;}
+
+.body_product_box_3d div.box_opts .common_th.active .box_model { border-color:#000 !important; box-shadow:none !important;}
+
+.section-emphasis-1 form { margin-bottom:0px;}
+
+.section-emphasis-1 .btn-primary { margin-left:8px;}
+
+.body_product_box_3d div.box_opts .common_th{ padding:10px 0;}
+
+.positions img{ vertical-align:top !important; padding:0 5px !important;}
+
+.positions .radio{ top:2px;}
+
+#suit_fabric_141 .select img{ height:86px; display:block; width:130px;}
+
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td{ vertical-align:middle !important;}
+
+#extras_jacket .box_title .name{display: inline-block;font-size: 18px !important;font-weight: bold;text-transform: uppercase; }
+
+.fabric_thumb .box_price {float: right !important;}  
+
+#model_3d_preview {margin-top: 0 !important;}
+
+.box_title > p{ color:#1a1a1a !important;font-size:13px !important;}
+
+.box_opts div.conf_opt .box_opt .radio_opt label.option{ color:#333 !important;}
+
+div.body_product_box_3d div.box_opts{ width:650px !important;}
+
+.box_opts div.conf_opt .box_opt .radio_opt{ padding:6px 0;}
+
+div.opt_box div.content{   padding: 0 0 0 2px !important;}
+
+#extra_form.man_jacket .extra_opt .box_title.open p.name{ width:98%;}
+
+#extras_jacket .extra_opt .btn_cancel_add { background: #ea693f none repeat scroll 0 0;border-radius: 3px;
+
+  color: #fff !important;padding: 3px 10px;position: relative;text-decoration: none !important;z-index: 9999;font-weight:normal;font-style:inherit !important;
+
+   font-size: 12px !important;text-transform:none;}
+
+div.fabric_preview { display:block !important;} 
+
+.close{ line-height:inherit !important;}
+
+.box_opts .box_opt .radio_opt label div { width:auto; }
+
+.garment_block .option { border:1px solid #ddd; padding:3px 5px; min-width:90px; -text-indent:10px; position:relative; border-radius:3px; text-align:center; line-height:18px;}
+
+.garment_block .option input[type="radio"] { visibility: hidden !important; opacity: 0; position: absolute; left:0; }
+
+.garment_block .option.checked { border:2px solid #333; font-weight:bold; position:relative;}
+
+.garment_block .option.checked:after { content: "*"; position: absolute; top:-8px; right:-5px; width:18px; height:18px; background:#333; color:#fff; border-radius:50%; font-size:20px; font-family:arial; padding-top:1px; }
+
+.garment_block .option img { margin: 0 auto; }
+
+.garment_block .option.checked img { border-color:#333 !important; } 
+
+.garment_nav .nav-tabs { display: block;  margin-bottom:10px !important;}
+
+.garment_block label{ font-size:14px !important;}
+
+.box_font_initial .positions { border:1px solid #ddd; padding:3px 5px; text-indent:5px; position:relative; border-radius:3px; line-height:25px;}
+
+.box_font_initial .positions input[type="radio"] { visibility: hidden !important; opacity: 0; position: absolute; left:0; }
+
+.box_font_initial .positions.checked { border:2px solid #333; font-weight:bold; position:relative;}
+
+.box_font_initial{width: 140px}
+
+.box_font_initial .positions.checked:after { content: "*"; position: absolute; top:-8px; right:-5px; width:18px; height:18px; background:#333; color:#fff; border-radius:50%; font-size:20px; font-family:arial; padding-top:1px; }
+
+#options_lining_jacket .op_lining label{ border:0 none; font-size:16px !important; padding:3px; margin-top:6px;}
+
+#options_lining_jacket .op_lining label .checked { border:0 none; }
+
+#options_lining_jacket .op_lining label .checked input[type="radio"] { visibility: hidden !important; opacity: 0; position: absolute; left:0; }
+
+#options_lining_jacket .op_lining .checked { border:2px solid #333; font-weight:bold; position:relative;padding:3px; height:30px !important;}
+
+#options_lining_jacket .op_lining label{max-width: 330px;}
+
+#options_lining_jacket .op_lining .box_opt_lining label.checked:after {text-indent:5px; content: "*"; position: absolute; top:-8px; right:-5px; width:18px; height:18px; background:#333; color:#fff; border-radius:50%; font-size:20px; font-family:arial; padding-top:0px; }
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title p span:hover{ color:#59c2ad;}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title p:hover{color:#59c2ad !important;}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title p{ text-transform:uppercase !important}
+
+.light_width{ width: 100% !important; max-width: 1200px !important;}
+
+div.fabric_block_title, div.extra_block_title {display: none;}
+
+.lateral_right label{ border:0 none; font-size:16px !important; padding:3px; margin-top:6px;}
+
+#options_metal_buttons .lateral_right label .checked { border:0 none; }
+
+#options_neck_lining .lateral_right label .checked { border:0 none; } 
+
+#options_patches .lateral_right , apply_at label .checked { border:0 none; }
+
+#options_patches .lateral_right label .checked { border:0 none; }
+
+#options_handkerchief .lateral_right label .checked { border:0 none; }
+
+.lateral_right .checked { border:2px solid #333; font-weight:bold; position:relative;padding:3px; height:30px !important;}
+
+.lateral_right label.checked:after {text-indent:5px; content: "*"; position: absolute; top:-8px; right:-5px; width:18px; height:18px; background:#333; color:#fff; border-radius:50%; font-size:20px; font-family:arial; padding-top:0px; }
+
+#extras_jacket div.apply_at label.checked::after{background: #333 none repeat scroll 0 0;border-radius: 50%;color: #fff;content: "*"; font-family: arial;font-size: 20px;height: 18px;padding-top: 0;position: absolute;right: -5px;text-indent: 5px;top: -8px;width: 18px;}
+
+#extras_jacket div.apply_at label.checked{border: 2px solid #333; font-weight: bold;height: 30px !important;padding: 3px;position: relative;}
+
+#extras_jacket div.apply_at {padding: 0 10px;width: 240px;}
+
+#options_patches {display: inline-block;}
+
+#extras_jacket div.apply_at label {margin-top: 8px !important;font-size:16px !important;}
+
+.products .image-list img{height:auto}
+
+.box-body input[type="file"]{height: auto;}
+
+.example-modal .tab-content > .tab-pane{ overflow-x:auto;/*max-height:510px !important;*/}
+
+.close{ opacity:1 !important;} 
+
+.content-wrapper .box-body table td img{ height:auto !important;}
+
+div.fabric_preview .infobar {
+
+    color: #FFF;
+
+    background: transparent url("/images/bg_shadow.png") repeat scroll 0% 0%;
+
+    position: absolute;
+
+    left: 0px;
+
+    right: 0px;
+
+    top: 0px;
+
+    padding: 5px 10px;
+
+    z-index: 10;
+
+}
+
+div.fabric_block {
+
+  display: none;
+
+}
+
+div.fabric_preview {
+
+  height: 134px;
+
+  overflow: hidden;
+
+  position: relative;
+
+  display: none;
+
+}
+
+div.fabric_preview a {
+
+  display: block;
+
+}
+
+div.fabric_preview a:before {
+
+  font-family: "customizericons" !important;
+
+  content: "W";
+
+  font-size: 50px;
+
+  font-weight: normal;
+
+  color: #FFF;
+
+  position: absolute;
+
+  left: 252px;
+
+  margin-top: 45px;
+
+  -webkit-opacity: .5;
+
+  -moz-opacity: .5;
+
+  opacity: .5;
+
+}
+
+div.fabric_preview .infobar {
+
+  color: #FFF;
+
+  background: url('/images/bg_shadow.png') repeat;
+
+  position: absolute;
+
+  left: 0;
+
+  right: 0;
+
+  top: 0;
+
+  padding: 5px 10px;
+
+  z-index: 10;
+
+}
+
+div.fabric_preview .title {
+
+  float: left;
+
+  text-transform: uppercase;
+
+  font-weight: bold;
+
+}
+
+div.fabric_preview .composition {
+
+  float: right;
+
+}
+
+div.fabric_list {
+
+  display: block;
+
+  overflow: hidden;
+
+  margin-left: -10px;
+
+  clear: both;
+
+  margin-top: 10px;
+
+}
+
+div.fabric_list .col {
+
+  display: inline;
+
+}
+
+div.fabric_list.loading {
+
+  min-height: 100px;
+
+  background: url('/images/loading.gif') center center no-repeat;
+
+}
+
+div.fabric_list.in_fabric_page {
+
+  width: 972px;
+
+}
+
+div.fabric_thumb {
+
+  vertical-align: top;
+
+  width: 130px;
+
+  height: 140px;
+
+  margin-left: 0px;
+
+  cursor: pointer;
+
+  position: relative;
+
+  display: inline-block;
+
+}
+
+div.fabric_thumb a {
+
+  border-bottom: 4px solid #FFF;
+
+  display: block;
+
+  height: 100px;
+
+  overflow: hidden;
+
+  outline: 0;
+
+}
+
+div.fabric_thumb a:hover {
+
+  border-bottom-color: #dcdcdc;
+
+}
+
+div.fabric_thumb .image {
+
+  display: block;
+
+  height: 86px;
+
+  background: #F7F7F7;
+
+  margin-bottom: 2px;
+
+}
+
+div.fabric_thumb .image div {
+
+  height: 100%;
+
+}
+
+
+
+div.fabric_thumb .icon {
+
+  position: absolute;
+
+  right: 0;
+
+  color: #FFF;
+
+  background: #000;
+
+  -webkit-opacity: .8;
+
+  -moz-opacity: .8;
+
+  opacity: .8;
+
+  display: block;
+
+  font-size: 12px;
+
+  height: 22px;
+
+  width: 22px;
+
+  -webkit-border-radius: 11px;
+
+  -moz-border-radius: 11px;
+
+  border-radius: 11px;
+
+  -moz-background-clip: padding;
+
+  -webkit-background-clip: padding-box;
+
+  background-clip: padding-box;
+
+  margin: 5px 5px 0 0;
+
+}
+
+div.fabric_thumb .icon:before {
+
+  margin-top: 4px;
+
+  float: left;
+
+  margin: 5px 0 0 5px;
+
+}
+
+div.fabric_thumb .icon-new {
+
+  position: absolute;
+
+  float: left;
+
+  color: #FFF;
+
+  background: #000;
+
+  -webkit-opacity: .8;
+
+  -moz-opacity: .8;
+
+  opacity: .8;
+
+  font-size: 10px;
+
+  display: block;
+
+  line-height: 17px;
+
+  margin: 5px 0 0 5px;
+
+  padding: 0 5px;
+
+}
+
+div.fabric_thumb div.title {
+
+  font-size: 13px;
+
+  line-height: 14px;
+
+  margin-top: 2px;
+
+}
+
+div.fabric_thumb .composition {
+
+  font-size: 10px !important;
+
+  color: #999;
+
+  text-transform: uppercase;
+
+}
+
+.lining_slider_contents div.fabric_thumb a, .fabric_slider_contents div.fabric_thumb a {
+
+  height: 90px;
+
+  outline: 0;
+
+}
+
+.lining_slider_contents div.fabric_thumb div.title, .fabric_slider_contents div.fabric_thumb div.title {
+
+  margin-top: 6px;
+
+}
+
+
+
+.lining_slider_contents div.fabric_thumb.selected a:before, .fabric_slider_contents div.fabric_thumb.selected a:before {
+
+  top: 23px;
+
+}
+
+div.fabric_thumb.selected a {
+
+  border-bottom: 4px solid #4585f3 !important;
+
+}
+
+div.fabric_thumb.selected a:before {
+
+  content: "W";
+
+  font-size: 30px;
+
+  font-weight: normal;
+
+  color: #FFF;
+
+  position: absolute;
+
+  left: 52px;
+
+  top: 30px;
+
+  -webkit-opacity: .5;
+
+  -moz-opacity: .5;
+
+  opacity: .5;
+
+  text-shadow: 2px 1px #000;
+
+  font-family: "customizericons" !important;
+
+}
+
+div.fabric_thumb.selected.hide_zoom a:before {
+
+  display: none;
+
+}
+
+div.fabric_thumb.thread_thumb.selected a:before, div.fabric_thumb.patch_thumb.selected a:before {
+
+  display: none;
+
+}
+
+.step_prev 
+
+{
+
+  display: none;
+
+}
+
+div.extra_container.active div.box_title_new:before {
+
+	  content: "t";
+
+  color: green;
+
+  -webkit-transform: rotate(0);
+
+  -moz-transform: rotate(0);
+
+  -ms-transform: rotate(0);
+
+  -o-transform: rotate(0);
+
+}
+
+div.extra_container.active div.box_title_new {
+
+  cursor: default;
+
+}
+
+div.extra_container.active div.box_title_new:hover {
+
+  color: inherit;
+
+}
+
+div.extra_container.tick div.box_title_new:before {
+
+  content: "t";
+
+  color: green;
+
+  -webkit-transform: rotate(0deg);
+
+  -moz-transform: rotate(0deg);
+
+  -ms-transform: rotate(0deg);
+
+  -o-transform: rotate(0deg);
+
+}
+
+@font-face {
+
+  font-family: "customizericons";
+
+  src: url("../fonts/customizer/customizericons.eot");
+
+  src: url("../fonts/customizer/customizericons.eot?#iefix") format("embedded-opentype"), 
+
+  url("../fonts/customizer/customizericons.woff") format("woff"), 
+
+  url("../fonts/customizer/customizericons.ttf") format("truetype"), 
+
+  url("../fonts/customizer/customizericons.svg#customizericons") format("svg");
+
+  font-weight: normal;
+
+  font-style: normal;
+
+}
+
+
+
+.icon-pinteres:before {
+
+  content: "d";
+
+}
+
+.icon-twitter:before {
+
+  content: "e";
+
+}
+
+.icon-facebook:before {
+
+  content: "f";
+
+}
+
+.icon-toutube:before {
+
+  content: "g";
+
+}
+
+.icon-google:before {
+
+  content: "h";
+
+}
+
+.icon-down-big-1:before {
+
+  content: "j";
+
+}
+
+.icon-plus-big:before {
+
+  content: "O";
+
+}
+
+.icon-minus-big:before {
+
+  content: "P";
+
+}
+
+.icon-down-big:before {
+
+  content: "I";
+
+}
+
+.icon-up-big:before {
+
+  content: "J";
+
+}
+
+.icon-zoom-big:before {
+
+  content: "W";
+
+}
+
+.icon-winter:before {
+
+  content: "y";
+
+}
+
+.icon-heart:before {
+
+  content: "x";
+
+}
+
+.icon-arrow-drop-menu:before {
+
+  content: "u";
+
+}
+
+.icon-bag:before {
+
+  content: "b";
+
+}
+
+.icon-key:before {
+
+  content: "c";
+
+}
+
+.icon-zoom-small:before {
+
+  content: "w";
+
+}
+
+.icon-plus-small:before {
+
+  content: "o";
+
+}
+
+.icon-minus-small:before {
+
+  content: "p";
+
+}
+
+.icon-down-small-1:before {
+
+  content: "i";
+
+}
+
+.icon-up-small-1:before {
+
+  content: "j";
+
+}
+
+.icon-edit-small:before {
+
+  content: "q";
+
+}
+
+.icon-close-small:before {
+
+  content: "r";
+
+}
+
+.icon-right-big:before {
+
+  content: "k";
+
+}
+
+.icon-left-big:before {
+
+  content: "l";
+
+}
+
+.icon-down-solid:before {
+
+  content: "s";
+
+}
+
+.icon-check-big:before {
+
+  content: "t";
+
+}
+
+.icon-logo:before {
+
+  content: "a";
+
+}
+
+.icon-polyester-fabric:before {
+
+  content: "n";
+
+}
+
+.icon-linen-fabric:before {
+
+  content: "n";
+
+}
+
+.icon-polyester-fabric:before {
+
+  content: "n";
+
+}
+
+.icon-other-fabric:before {
+
+  content: "n";
+
+}
+
+.icon-linen-fabric:before {
+
+  content: "n";
+
+}
+
+.icon-linen-fabric:before {
+
+  content: "n";
+
+}
+
+.icon-other-fabric:before {
+
+  content: "n";
+
+}
+
+.icon-polyester-fabric:before {
+
+  content: "n";
+
+}
+
+.icon-minus-big:before {
+
+  content: "n";
+
+}
+
+.icon-hide-big:before {
+
+  content: "v";
+
+}
+
+.icon-hide-big:before {
+
+  content: "v";
+
+}
+
+.icon-hide-big:before {
+
+  content: "v";
+
+}
+
+.icon-hide-big:before {
+
+  content: "c";
+
+}
+
+.icon-key:before {
+
+  content: "c";
+
+}
+
+.icon-hide-big:before {
+
+  content: "v";
+
+}
+
+.icon-hide-big:before {
+
+  content: "v";
+
+}
+
+.icon-hide-big:before {
+
+  content: "v";
+
+}
+
+.icon-hide-big:before {
+
+  content: "v";
+
+}
+
+.icon-show-big:before {
+
+  content: "v";
+
+}
+
+.icon-turn-big:before {
+
+  content: "A";
+
+}
+
+.icon-show-big:before {
+
+  content: "v";
+
+}
+
+.icon-show-big:before {
+
+  content: "v";
+
+}
+
+.icon-simbol-freeshipping:before {
+
+  content: "z";
+
+}
+
+.icon-simbol-freeshipping:before {
+
+  content: "z";
+
+}
+
+.icon-hide-big:before {
+
+  content: "A";
+
+}
+
+.icon-turn-big:before {
+
+  content: "v";
+
+}
+
+.icon-turn-big:before {
+
+  content: "v";
+
+}
+
+.icon-show-big:before {
+
+  content: "J";
+
+}
+
+.icon-up-big:before {
+
+  content: "A";
+
+}
+
+.icon-show-big:before {
+
+  content: "A";
+
+}
+
+.icon-simbol-freeshipping:before {
+
+  content: "z";
+
+}
+
+.icon-show-big:before {
+
+  content: "D";
+
+}
+
+.icon-show-big:before {
+
+  content: "A";
+
+}
+
+.icon-show-big:before {
+
+  content: "A";
+
+}
+
+.icon-show-big:before {
+
+  content: "A";
+
+}
+
+.icon-show-big:before {
+
+  content: "A";
+
+}
+
+.icon-hide-big:before {
+
+  content: "F";
+
+}
+
+.icon-close-big:before {
+
+  content: "m";
+
+}
+
+.icon-fontawesome-webfont:before {
+
+  content: "B";
+
+}
+
+.icon-world-map:before {
+
+  content: "z";
+
+}
+
+div.garment_loading {
+
+  color: #FFF;
+
+  text-align: center;
+
+}
+
+div.garment_container {
+
+  position: relative;
+
+}
+
+div.extra_container.tick .title_price {
+
+  display: inline;
+
+}
+
+div.box_title_new {
+
+  /*font-family: 'Fira Sans';
+
+    cursor: pointer;*/
+
+  font-weight: bold;
+
+  font-size: 19px;
+
+  text-transform: uppercase;
+
+  margin: 0 0 10px 0;
+
+  display: inline-block;
+
+}
+
+div.extra_title .title_price {
+
+  font-weight: normal;
+
+  font-size: 14px;
+
+  margin-left: 20px;
+
+  display: none;
+
+}
+
+div.box_title_new:before {
+
+  font-family: "customizericons" !important;
+
+  content: "s";
+
+  -webkit-transform: rotate(-90deg);
+
+  -moz-transform: rotate(-90deg);
+
+  -ms-transform: rotate(-90deg);
+
+  -o-transform: rotate(-90deg);
+
+  font-size: 30px;
+
+  font-weight: normal;
+
+  color: #C2C2C2;
+
+  position: absolute;
+
+  left: -3px;
+
+  margin-top: -10px;
+
+  text-transform: none;
+
+}
+
+div.box_title_new:hover {
+
+    color: #59c2ad;
+
+}
+
+
+
+div.box_title_new:hover::before {
+
+    color: #59c2ad;
+
+}
+
+
+
+div.extra_container.active div.box_title_new:hover:before {
+
+  color: #C2C2C2;
+
+}
+
+#extra_form.man_jacket div.personalized_box.lateral{ padding-top:0 !important;}
+
+.body_product_box_3d div.box_opts div.extra_opt .box_title {
+
+    float: none;
+
+    /*margin-bottom: 10px;*/
+
+	 margin-bottom:0;
+
+}
+
+.collar-lining .neck_styling .body_product_box_3d .box_model img{ width: 120px; min-height:120px; max-width:100%;}
+
+.collar-lining .cuff_styling .body_product_box_3d .box_model img{ width: 120px; min-height:120px; max-width:100%;}
+
+.button-threads{ float:left;}
+
+.button-holes{ float:left;}
+
+.list_common_color.interactive_options.all_colors.cuff_col{ clear:both;}
+
+.shirtsection .list_common_color { 
+
+    overflow: hidden;
+
+    margin-bottom: 45px !important;;
+
+    margin-top: 20px !important;
+
+  position:relative;
+
+  top:15px
+
+}
+
+.shirtsection .button-threads{ margin-top:-30px; width:110px;}
+
+.shirtsection .button-holes{ margin-top:-30px;width:110px;}
+
+#cuffs_only .button-holes img{ min-width: 160px;min-height:90px;}
+
+#cuffs_only .button-threads img{ min-width: 160px;min-height:90px; margin-top:10px;}
+
+#placket_only .button-holes img{ min-width: 160px;min-height:90px;}
+
+#placket_only .button-threads img{ min-width: 160px;min-height:90px;}
+
+#cuffs_only .button-threads{ width:auto; margin:0;}
+
+#cuffs_only .button-holes{ width:auto; margin:0;}
+
+#button_thread_type #placket_only .list_common_color{margin-left:190px !important; top:10px;}
+
+#button_thread_type #cuffs_only .list_common_color{ margin-left:190px !important; top:10px;}
+
+/* Customizer Style */
+
+
+
+
+
+label.error{color:red;}
+
+#uniform-jacket_sleeve_buttons span {
+
+  width:114px !important;
+
+}
+
+#extra_form.man_jacket .option_trigger.active1 a.box_color {
+
+    border: 2px solid green;
+
+    border-radius: 6px;
+
+}
+
+#extra_form.man_waistcoat .option_trigger.active1 a.box_color {
+
+    border: 2px solid green;
+
+    border-radius: 6px;
+
+    text-align: center;
+
+}
+
+.modal-close
+
+{
+
+  font-size: 14px !important;
+
+  padding: 6px !important;
+
+  background: #f4f4f4 !important;
+
+  border:1px solid #ddd !important;
+
+}
+
+.cuadro_intro_hover .caption-text{ top:-30px !important;}
+
+#configure-form1 a{ margin:0 5px;} 
+
+#slider_fabrics div {
+
+    margin-left: 0 !important;
+
+}
+
+.stripped span:nth-child(3){ text-align:center}
+
+#fabric_form1 .btn-primary{ margin:0 5px !important;}
+
+#extra_forms .btn-primary{ margin:0 5px !important;}
+
+#extra_forms1 .btn-primary{ margin:0 5px !important;}
+
+.form-group .gift_check{ margin-right:7px}
+
+.tab-pane p img{ margin:0 5px;}
+
+.btn-info{ margin:3px;}
+
+.form-search input, .form-inline input, .form-horizontal input, .form-search textarea, .form-inline textarea, .form-horizontal textarea, .form-search select, .form-inline select, .form-horizontal select, .form-search .help-inline, .form-inline .help-inline, .form-horizontal .help-inline, .form-search .uneditable-input, .form-inline .uneditable-input, .form-horizontal .uneditable-input, .form-search .input-prepend, .form-inline .input-prepend, .form-horizontal .input-prepend, .form-search .input-append, .form-inline .input-append, .form-horizontal .input-append{ margin-bottom:7px !important}
+
+
+
+/* 4-7-2016*/
+
+.tot_dtl h4 span { display: inline-block; width: 300px;}
+
+.tot_dtl h4 > strong { display: inline-block;  width: 300px;}
+
+.show_day { display: inline-block; width: 50%;}
+
+.sorting { width:380px !important;}
+
+.nation .chosen-container { width:100% !important;}
+
+
+
+/* 4-8-2016*/
+
+.profile-user-img {
+
+    padding: 5px !important;
+
+    width: 130px !important;
+
+}
+
+#photo .admin-photo .form-control{height:auto;}
+
+.nav-tabs-custom .tab-content .form-control{height:auto;max-width:98%}
+
+.nav-tabs-custom{ min-height:347px;}
+
+.box.box-primary{ min-height:347px;}
+
+
+
+
+
+div.controls {
+
+    position: absolute;
+
+    left: 293px;
+
+    top: 150px;
+
+    font-size: 40px;
+
+    width: 40px;
+
+    z-index: 9999999;
+
+}
+
+
+
+div.controls,div.controls span {
+
+    text-align: center;
+
+}
+
+div.controls span {
+
+    font-size: 9px;
+
+    text-align: center;
+
+    display: block;
+
+    margin-top: -15px;
+
+    margin-left:5px;
+
+}
+
+div .controls a {
+
+    text-decoration: none;
+
+    color: #BABABA;
+
+    display: block;
+
+    text-align: center;
+
+
+
+}
+
+div..controls {
+
+    font-size: 40px;
+
+}
+
+@font-face {
+
+  font-family: "customizericons";
+
+  src: url("../fonts/customizer/customizericons.eot");
+
+  src: url("../fonts/customizer/customizericons.eot?#iefix") format("embedded-opentype"), 
+
+  url("../fonts/customizer/customizericons.woff") format("woff"), 
+
+  url("../fonts/customizer/customizericons.ttf") format("truetype"), 
+
+  url("../fonts/customizer/customizericons.svg#customizericons") format("svg");
+
+  font-weight: normal;
+
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+
+  font-family: "customizericons"!important;
+
+  content: attr(data-icon);
+
+  font-style: normal!important;
+
+  font-weight: normal!important;
+
+  font-variant: normal!important;
+
+  text-transform: none!important;
+
+  speak: none;
+
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+
+  font-family: "customizericons"!important;
+
+  font-style: normal!important;
+
+  font-weight: normal!important;
+
+  font-variant: normal!important;
+
+  text-transform: none!important;
+
+  speak: none;
+
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+
+}
+#max_height_move.suit div.box_title p {
+    margin: 0;
+}
+.price.price_total {
+    float: right;
+}
+.fabric-customclothies .title.fabrics_title {
+    text-transform: none;
+}
+.shirtsection {
+    clear: both;
+}
+
+.tab-content .default_list1 {
+    display: inline-block;
+    padding: 0px;
+}
