@@ -1,0 +1,58 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+#Options -Multiviews +Indexes
+RewriteBase /custom/cp/
+#Header add Access-Control-Allow-Origin "*" 
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([^/]+)/$ ?page=$1 [L]
+
+RewriteRule ^([^/]+)/([^/]+)/$ ?page=$1&type=$2 [L]
+
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&id=$2&oid=$3 [L]
+
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&id=$2&pid=$3&sid=$4 [L]
+
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&id=$2&pid=$3&sid=$4&oid=$5 [L]
+
+
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&tid=$2&uid=$3&pid=$4&cid=$5&sid=$6 [L]
+
+
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&tid=$2&uid=$3&pid=$4&cid=$5&sid=$6&oid=$7 [L]
+
+
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&aid=$2&tid=$3&uid=$4&pid=$5&cid=$6&sid=$7&oid=$8 [L]
+
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&aid=$2&tid=$3&uid=$4&pid=$5&cid=$6&sid=$7&oid=$8&orderidnew=$9 [L]
+
+
+#RewriteRule ^([^/]+)/([^/]+)/$ ?page=$1&name=$2 [L]
+
+#RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&name=$2&rel=$3 [L]
+
+#RewriteRule ^([^/]+)/([^/]+)/$ ?page=user&name=$2 [L]
+
+# 404 redirect page start
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ error.php [L]
+
+#404 redirect page end
+#put this in root directory
+
+#php_flag display_errors On
+
+#php_flag display_startup_errors On
+
+#php_value error_reporting E_ALL&~E_DEPRECATED
+
+#php_flag html_errors On
+
+#php_flag log_errors On
+
+</IfModule>
+
