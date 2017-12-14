@@ -1,0 +1,44 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+#Options -Multiviews
+#Options +FollowSymLinks
+#Options +Indexes
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ https://www.customclothiers.com/$1 [R=301,L]
+
+
+RewriteBase /custom/
+RewriteRule ^newsletter - [L,NC]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([^/]+)/$ ?page=$1 [L]
+RewriteRule ^([^/]+)/([^/]+)/$ ?page=$1&id=$2 [L]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&id=$2&subcatid=$3&orderid1=$4 [L]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&id=$2&orderid=$3 [L]
+#RewriteRule ^([^/]+)/([^/]+)/$ ?page=user&name=$2 [L]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&name=$2&id=$3&pid=$4 [L]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ ?page=$1&catname=$2&pname=$3&pid=$4&subcatid=$5 [L]
+
+# 404 redirect page start
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ 404.php [L]
+</IfModule>
+
+#404 redirect page end
+
+<ifModule mod_headers.c>
+    Header set Connection keep-alive
+    Header set Access-Control-Allow-Origin "*"
+</ifModule>
+
+#RewriteCond %{HTTP_HOST} ^customclothiers\.com$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.customclothiers\.com$
+RewriteRule ^webmail$ "https\:\/\/a2plcpnl0698\.prod\.iad2\.secureserver\.net\:2096\/" [R=301,L]
+
+Redirect 301 /404testpage4525d2fdc /index.php
+Redirect 301 /404javascript.js /index.php
